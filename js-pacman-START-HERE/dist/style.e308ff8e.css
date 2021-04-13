@@ -67,8 +67,12 @@ body {
   background: black;
 }
 
+.bwall{
+  border: 1.4px solid yellow;
+}
+
 .wall {
-  border: 1px solid yellow;
+  border: 1.4px solid blue;
 }
 
 .dot {
@@ -78,7 +82,7 @@ body {
 }
 
 .pill {
-  background: yellow;
+  background: purple;
   border: 5px solid black;
   border-radius: 50%;
 }
@@ -136,10 +140,10 @@ body {
 }
 
 .pacman {
-  background: blue;
+  background: yellow;
   border: none;
   border-radius: 50%;
-  /*clip-path: polygon(
+  clip-path: polygon(
     0 0,
     20px 0,
     20px -5px,
@@ -147,7 +151,7 @@ body {
     20px 25px,
     20px 20px,
     0 20px
-  );*/
+  );
   animation: chew 0.2s linear forwards infinite;
 }
 
